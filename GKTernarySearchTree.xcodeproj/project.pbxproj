@@ -12,7 +12,7 @@
 		244C98631687A7EE004CF927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244C98621687A7EE004CF927 /* Foundation.framework */; };
 		244C98691687A7EE004CF927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 244C98671687A7EE004CF927 /* InfoPlist.strings */; };
 		244C986C1687A7EE004CF927 /* TernaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C986B1687A7EE004CF927 /* TernaryTest.m */; };
-		244C98731687A95B004CF927 /* GKTernaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C98721687A95B004CF927 /* GKTernaryNode.m */; };
+		244C98731687A95B004CF927 /* GKTernarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 244C98721687A95B004CF927 /* GKTernarySearchTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		244C986A1687A7EE004CF927 /* TernaryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TernaryTest.h; sourceTree = "<group>"; };
 		244C986B1687A7EE004CF927 /* TernaryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TernaryTest.m; sourceTree = "<group>"; };
 		244C986D1687A7EE004CF927 /* TernaryTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TernaryTest-Prefix.pch"; sourceTree = "<group>"; };
-		244C98711687A95B004CF927 /* GKTernaryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTernaryNode.h; sourceTree = "<group>"; };
-		244C98721687A95B004CF927 /* GKTernaryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTernaryNode.m; sourceTree = "<group>"; };
+		244C98711687A95B004CF927 /* GKTernarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTernarySearchTree.h; sourceTree = "<group>"; };
+		244C98721687A95B004CF927 /* GKTernarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTernarySearchTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +46,8 @@
 		244C98491687A77B004CF927 = {
 			isa = PBXGroup;
 			children = (
-				244C98711687A95B004CF927 /* GKTernaryNode.h */,
-				244C98721687A95B004CF927 /* GKTernaryNode.m */,
+				244C98711687A95B004CF927 /* GKTernarySearchTree.h */,
+				244C98721687A95B004CF927 /* GKTernarySearchTree.m */,
 				244C98641687A7EE004CF927 /* TernaryTest */,
 				244C985D1687A7EE004CF927 /* Frameworks */,
 				244C985C1687A7EE004CF927 /* Products */,
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				244C986C1687A7EE004CF927 /* TernaryTest.m in Sources */,
-				244C98731687A95B004CF927 /* GKTernaryNode.m in Sources */,
+				244C98731687A95B004CF927 /* GKTernarySearchTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +285,7 @@
 				244C98701687A7EE004CF927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

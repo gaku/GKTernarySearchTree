@@ -7,7 +7,7 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "GKTernaryNode.h"
+#import "GKTernarySearchTree.h"
 @interface StringItem : NSObject<GKTernaryTreeItem>
 @property(retain) NSString* str;
 @end

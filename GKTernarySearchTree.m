@@ -6,7 +6,7 @@
 //
 //
 
-#import "GKTernaryNode.h"
+#import "GKTernarySearchTree.h"
 
 @implementation GKTernaryNode
 

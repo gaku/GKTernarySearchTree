@@ -7,7 +7,7 @@
 //
 
 #import "TernaryTest.h"
-#import "GKTernaryNode.h"
+#import "GKTernarySearchTree.h"
 
 @implementation StringItem
 - (StringItem*)initWithString:(NSString*)str
