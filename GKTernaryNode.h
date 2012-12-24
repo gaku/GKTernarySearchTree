@@ -4,19 +4,33 @@
 //
 //  Created by Gaku Ueda on 12/23/12.
 //
-// Based on C-version implementation at
+// Orignally referred the C implementation at
 // http://www.drdobbs.com/database/ternary-search-trees/184410528
 
 #import <Foundation/Foundation.h>
 
+@protocol GKTernaryTreeItem <NSObject>
+- (NSString*)stringValue;
+@end
+
+
 @interface GKTernaryNode : NSObject
 {
-    GKTernaryNode* lokid;
-    GKTernaryNode* eqkid;
-    GKTernaryNode* hikid;
+@public
+    GKTernaryNode* lo;
+    GKTernaryNode* eq;
+    GKTernaryNode* hi;
     unichar splitchar;
 }
-- (void) insert:(NSString*)str;
-- (BOOL) search:(NSString*)str;
+@property (retain) id item;
 
+@end
+
+@interface GKTernarySearchTree : NSObject
+{
+    GKTernaryNode* root;
+}
+- (void) insert:(id<GKTernaryTreeItem>)item;
+- (BOOL) search:(NSString*)str;
+- (NSArray*) retrieve:(NSString*)prefix;
 @end

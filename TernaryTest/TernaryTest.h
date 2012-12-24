@@ -7,6 +7,10 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "GKTernaryNode.h"
+@interface StringItem : NSObject<GKTernaryTreeItem>
+@property(retain) NSString* str;
+@end
 
 @interface TernaryTest : SenTestCase
 
